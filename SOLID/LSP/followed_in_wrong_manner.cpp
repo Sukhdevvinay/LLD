@@ -4,7 +4,35 @@
 #include <stdexcept>
 
 using namespace std;
+/* LSP : Liskov Substitution Principle 
+-> SubClases should be Substitutable for their base classes. or this is called Inheritance
+-> Means if we have Class A has class B as children 
+so if client or some component ask to use Base Class or Parent Class if we pass his children class 
+instead Parent class so it will be valid. 
+-> Because children has all properties to exact their parent or because children extends its parent 
+properties .
+-> Kahi Bhi agar hum parent class ka object bhek sakte hain toh hum us parent ki jagah uski children 
+class ka bhi object hej sakte hain.
 
+** Example : 
+Parent A 
+Children B
+
+methods of A : m1 , m2 ,m3 
+methods of B : m4,m5 
+
+suppose this is client code 
+randomMethod(A*a) {
+    a->m1();
+    a->m2();
+    a->m3();
+}
+so now how client call this funciton 
+ -> A* a = new A();
+ Instead of Using its Parent 
+ We can use 
+ -> A* a = new B(); // now this object has reference of Object B
+*/
 class Account {
 public:
     virtual void deposit(double amount) = 0;
