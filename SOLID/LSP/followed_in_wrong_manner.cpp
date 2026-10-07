@@ -121,6 +121,8 @@ public:
             acc->deposit(1000);
 
             //Checking account type explicitly
+            // Now client know the structure , if in future new type of account then we have to 
+            // change this code so it also breaks OCP principle for new feature
             if (typeid(*acc) == typeid(FixedTermAccount)) {
                 cout << "Skipping withdrawal for Fixed Term Account.\n";
             } else {
