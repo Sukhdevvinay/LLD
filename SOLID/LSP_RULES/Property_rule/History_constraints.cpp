@@ -14,6 +14,8 @@ IMMUTABLE METHODS :
 
 to Make IMMUTABLE ANYTHING : Use final Keyword for clas or methods 
 
+Agar hamra pass koi immutable class ka method hain , toh agar hamra child class use mutable bana de
+toh woh this is also breaks history constraints rule or LSP
 */
 
 // Sub class methods should not be allowed state changes What
