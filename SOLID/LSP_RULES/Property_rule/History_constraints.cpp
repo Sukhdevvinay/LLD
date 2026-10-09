@@ -12,7 +12,7 @@ IMMUTABLE METHODS :
 -> Ek Ese Methods jisko koi change na kar sake.
 -> Ese Methods jinko koi override na kar sake.
 
-to Make IMMUTABLE ANYTHING : Use final for clas or methods 
+to Make IMMUTABLE ANYTHING : Use final Keyword for clas or methods 
 
 */
 
