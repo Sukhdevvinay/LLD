@@ -1,7 +1,9 @@
 #include <iostream>
 
 using namespace std;
-
+/*
+This is proper Design Method.
+*/
 // Product Class and subclasses
 class Burger {
 public:
