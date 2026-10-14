@@ -3,6 +3,14 @@
 using namespace std;
 /*
 This is proper Design Method.
+
+DEFINATION : 
+Defines an Interface for creating Objects but allows subclasses to decide which class to instantiate.
+* Means Ab uski sub class hi main class ko define karege
+* Means Ye Jo subclasses hain woh decide karte hain ki inko konsi classes ko instantisiate karna
+hain.
+* Means Konsa Product banana hain woh factory ki subclass decide karte hain. ya subclass decide karte 
+hain ki usko konsa product banana hain.
 */
 // Product Class and subclasses
 class Burger {
